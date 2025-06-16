@@ -1,5 +1,4 @@
-/* From Uiverse.io by cssbuttons-io */ 
-.btn {
+ .btn {
     position: relative;
     font-size: 17px;
     text-transform: uppercase;
@@ -12,7 +11,7 @@
     border: none;
     font-family: inherit;
     font-weight: 500;
-    color: black;
+    color: rgb(160, 60, 60);
     background-color: white;
   }
   
@@ -47,4 +46,5 @@
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
   }
+  
   
