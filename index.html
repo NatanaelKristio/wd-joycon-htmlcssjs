@@ -9,25 +9,36 @@
 </head>
 <body>
     <!-- buat komponen yang menggambarkan controller @MUTAMA -->
-    <section>
-        <nav> 
-            <button class="btn"> button kiri</button>
-            <button class="btn"> button atas</button>
-            <button class="btn"> button bawah </button>
-            <button class="btn"> button kanan </button>
-        </nav>
-    </section>
-
-    <section>
-        <button class="btn" > A</button> 
-        <button class="btn" > B</button>
-    </section>
+    <header>
+        <h1>Nama masuk</h1>
+    </header>
     <!--    [^]                -->
     <!-- [<][v][>]      [B][A] -->
     <!--           atau        -->
     <!--    [^]                -->
     <!-- [<]   [>]      [B][A] -->
     <!--    [v]                -->
+<main>
+    <div class="container">
+        <nav> 
+            <button class="btn" id="kiri"> kiri</button>
+            <button class="btn" id="atas"> atas</button>
+            <button class="btn" id="bawah"> bawah</button>
+            <button class="btn" id="kanan"> kanan</button>
+        </nav>
+     </div>     
+</main>
+
+<aside>
+    <div>
+        <section class="aside">
+            <button class="btn" > A</button> 
+            <button class="btn" > B</button>
+         </section>
+    </div>
+</aside>
+
+    
     <!-- controller dibagi menjadi 2 bagian, kiri untuk arah, kanan untuk aksi -->
     <!-- banyak cara yang bisa kamu terapkan, sesuaikan saja dengan apa yang menurut kamu paling nyaman -->
     <!-- di kolom kiri yang memuat arah bisa dibuat dengan menggunakan skema display flex atau pun memanfaatkan posisi absolute yang memuat button-button -->
